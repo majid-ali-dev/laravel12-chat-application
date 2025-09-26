@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Skydash Admin</title>
+    <title>admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
@@ -95,7 +95,7 @@
                                                     <p><strong>Name:</strong> {{ $LoggedUserInfo->name }}</p>
                                                     <p><strong>Email:</strong> {{ $LoggedUserInfo->email }}</p>
                                                     <p><strong>Phone:</strong> {{ $LoggedUserInfo->phone_number }}</p>
-                                                    <p><strong>Phone:</strong> {{ $LoggedUserInfo->role }}</p>
+                                                    {{-- <p><strong>Phone:</strong> {{ $LoggedUserInfo->role }}</p> --}}
                                                    
                                                     <p><strong>Account Created At :</strong> {{ $LoggedUserInfo->created_at}}</p>
 
